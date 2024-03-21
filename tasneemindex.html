@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body style="background-color: #66CCFF;"></body>
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-col s3">
+      <a href="#ชุมชนของฉัน" class="w3-button w3-block w3-blue">หน้าแรก</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#ประวัติชุมชน" class="w3-button w3-block w3-blue">ประวัติชุมชน</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#พืชผักผลไม้" class="w3-button w3-block w3-blue">พืชผักผลไม้</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#ผลิตภัณฑ์สินค้า" class="w3-button w3-block w3-blue">ผลิตภัณฑ์สินค้า</a>
+    </div class="w3-col s3">
+    <div class="w3-col s3">
+      <a href="#อาหารพื้นบ้าน" class="w3-button w3-block w3-blue">อาหารพื้นบ้าน</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#อาชีพ" class="w3-button w3-block w3-blue">อาชีพ</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#โรงเรียน" class="w3-button w3-block w3-blue">โรงเรียน</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#ติดต่อสอบถาม" class="w3-button w3-block w3-blue">ติดต่อสอบถาม</a>
+    </div class="w3-col s3">
+
+ </div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-#66CCFF;">
+    <h1 class="w3-xxxlarge"><b>ชุมชนของฉัน</b></h1>
+    <h6>ยินดีต้อนรับสู่ <span class="w3-tag">บ้านบึงน้ำใส</span></h6>
+  </header>
+
+
+  <!-- Grid -->
+<div class="w3-row">
+<header class="w3-container w3-center w3-padding-32">
+<video width="100%" height="100%" controls>
+  <source src="คลิป.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+<header class="w3-container w3-center w3-padding-32"> 
+    <h3><b>บ้านบึงน้ำใส</b></h3>
+     </div>
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-blue w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>ประวัติของชุมชน</h3>
+          <h5>บ้านบึงน้ำใส</h5>
+        </div>
+
+        <div class="city w3-display-container" id="ประวัติชุมชน">
+                  <img src="146.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p>บึงน้ำใสแห่งนี้ในอดีตเป็นที่เพาะพันธุ์ของสัตว์น้ำนานาชนิด เพราะมีความออุดมสมบูรณ์ในระบบนิเวศวิทยา โดยชาวบ้านที่อาศัยอยู่ใกล้กับแหล่งน้ำแห่งนี้ มีอาชีพการทำประมงน้ำจืดเป็นอาชีพรอง รองจากอาชีพการทำสวนยางพารา นอกจากนี้ยังเป็นแหล่งชุกชุมของปลามังกรซึ่งเป็นปลาหายากและมีราคา ทำให้ชาวบ้านมีอาชีพหาปลา เพื่อจำหน่ายให้กับผู้ที่นิยมเลี้ยงปลาตู้ปลาสวยงาม แต่ปัจจุบันได้มีการขุดลอกแหล่งน้ำใหม่ ทำให้ระบบนิเวศวิทยา ที่เคยสมบูรณ์ได้รับความเสื่อมโทรม</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-blue w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>ผลิตภัณฑ์สินค้า</h3>
+          <h5></h5>
+        </div>
+
+        <div class="city w3-display-container" id="ผลิตภัณฑ์สินค้า">
+          <img src="164.jfif" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p> กริช </p>
+          <p>ประวัติความเป็นมาของกริชรามันห์นั้นมีอยู่ว่า เมื่อในอดีตเมื่อ 200-300 ปีก่อน เจ้าเมืองรามันหรืออำเภอรามันในปัจจุบันนี้ ประสงค์จะให้มีกริชเป็นอาวุธคู่บ้านคู่เมือง จึงได้เชิญช่างทำกริชจากชวา มีชื่อว่า "ปาแนซาระห์" มาสร้างกริชที่มีเอกลักษณ์ประจำตัวขึ้น หลังจากนั้นมา กริชรูปแบบนี้จึงเรียกต่อกันมาว่า กริชปาแนซาระห์ ตามชื่อของช่างผู้ทำกริช กริชรามันห์เป็นกริชในตระกูลของท่านปาแนซาระห์ ซึ่งได้รับการยอมรับในกลุ่มคนทำกริช หรือกลุ่มผู้นิยมกริชทั่วโลก เพราะเป็นกริชที่มีลักษณะโดดเด่นเป็นพิเศษกว่ากริชชนิดที่อื่น โดยเฉพาะใบกริชและหัวกริช เนื่องจากส่วนใหญ่เป็นศิลปะรูปนกปือกา หรือนกพังกะ เป็นนกในวรรณคดีท้องถิ่น ที่มีความหมายว่า ผู้คุ้มครอง เป็นนกที่มีลำตัวสีเขียว ปากยาวมีสีแดงอมเหลือง คอมีสีขาวสลับสีแดง กริชรามันจึงเป็นรูปนกแทบทั้งสิ้น กริชรามันห์มีลักษณะพิเศษเป็นเอกลักษณ์ เฉพาะตัวที่โดดเด่นงดงาม มีจิตวิญญาณของความเชื่อและ ตำนานไม่แพ้กริชของพื้นที่ใดในแหลม มลายู จึงเป็นสิ่งที่น่าสนใจ และได้รับความนิยมจากบุคคลทั่วไป ทั้งชาวไทยและต่างชาติ ทำให้ยังมีคนนิยมเก็บสะสมกริชรามันเป็นของที่ระลึก </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="กริชปันไดมามะ.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <p></p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="กริช1.jfif" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-blue w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>อาหารพื้นบ้าน</h3>
+        </div>
+
+        <div class="city w3-display-container" id="อาหารพื้นบ้าน">
+          <img src="ข้าวยำ1.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>ข้าวยำ</strong> นิยมรับประทานเป็นอาหารเช้า หรืออาหารกลางวัน เรียกกันในภาษามลายูท้องถิ่นว่า “นาซิเกอราบู”</p>
+          <p>ซึ่ง  “นาซิ”  แปลว่า  “ข้าว”  ส่วน  “เกอราบู”  แปลว่า  “ยำ”  หมายถึงข้าวสุกที่คลุกกับน้ำบูดู ข้าวยำมีหลายชนิดด้วยกัน แต่จะเรียกชื่อแตกต่างกันไปตามแต่ละท้องถิ่น เช่น ข้าวยำใบพันสมอ หรือข้าวยำนราธิวาส ข้าวยำใบยอ ข้าวยำยาหรือ ข้าวยำสยา เป็นต้น ต้นกำเนิดของข้าวยำนั้นสันนิษฐานว่าอยู่ทางภาคใต้ของไทยและประเทศมาเลเซีย ส่วนในแถบเอเชีย ยังมีข้าวยำที่เป็นเอกลักษณ์เฉพาะตนก็มีอย่างเช่น  “บิบิมบับ”  (Bibimbap)  หรือข้าวยำของเกาหลี ที่รสชาติไม่จัดจ้าน มากนักมีไข่ดิบและเนื้อสัตว์เป็นวัตถุดิบรวมอยู่ด้วย ข้าวยำเป็นอาหารจานเดียวที่มีคุณประโยชน์ทางโภชนาการและเป็น อาหารเพื่อสุขภาพ ให้สารอาหารที่หลากหลาย เป็นอาหารที่เหมาะกับคนที่ต้องการควบคุมน้ำหนักเนื่องจากผักในข้าวยำ เป็นผักสดที่ไม่ต้องผ่านการปรุงใดๆ จึงทำให้ได้รับวิตามินต่าง ๆ ที่มีอยู่ในผักอย่างเต็มที่ นอกจากนี้ในข้าวยำยังให้แร่ธาตุ โปรตีน คาร์โบไฮเดรต และมีใยอาหารสูง ช่วยให้ระบบขับถ่ายทำงานได้เป็นปกติ</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+             
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+                
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="city w3-display-container" id="พืชผักผลไม้">
+        <img src="รวม.jpg" alt="Jane" style="width:100%" class="">
+        <div class="w3-container w3-white">
+          <h4>พืชผักผลไม้ในชุมชน</h4>
+          <p>ในชุมชนบ้านบึงน้ำใส มีพืชผักผลไม้มากมายต่างๆนานา ไม่ว่าจะเป็น มะพร้าว ส้มโอ กล้วยน้ำว้า ต้นหว้า มังคุด สัปปะรด ข้าวโพด ถั่วฝักยาว เป็นต้น</p>
+        </div>
+      </div>
+      <hr>
+
+       <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="ต้นกล้วย.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="https://www.technologychaoban.com/bullet-news-today/article_182661">กล้วยน้ำว้า</a>
+        <p>ต้นกำเนิดลูกผสมMusa acuminata × Musa balbisiana<p>  
+           <p>กลุ่มพันธุ์ปลูก ABB Group</p>
+  
+      </div>
+    </div>
+     <div class="w3-third w3-container w3-margin-bottom">
+      <img src="ต้นว้า.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="https://medthai.com/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%AB%E0%B8%A7%E0%B9%89%E0%B8%B2/">ต้นหว้า</a>
+        
+        <p>ชื่อสามัญ Jambolan plum, Java plum, Jambul<p>
+           <p>ชื่อวิทยาศาสตร์   Syzygium cumini Skeels</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="w3-third w3-container">
+      <img src="มะพร้าว1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="https://www.disthai.com/17165941/%E0%B8%A1%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7">มะพร้าว</a>  
+        <p>ชื่อสามัญ : Coconut<p>
+         <p>ชื่อวิทยาศาสตร์:<p>
+          <p>Cocos nucifera<p>
+         <p>วงศ์ : Palmae</p>
+      </div>
+    </div>
+  </div>
+
+<!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="มังคุด.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="https://pharmacy.mahidol.ac.th/th/knowledge/article/335/%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%94-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%99%E0%B9%8C/">มังคุด</a>
+        <p>ชื่อสามัญ : Mangosteen<p>  
+           <p>ชื่อวิทยาศาสตร์ : Garcinia mangostana</p>
+      </div>
+    </div>
+     <div class="w3-third w3-container w3-margin-bottom">
+      <img src="สัปปะรด.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="https://medthai.com/%E0%B8%AA%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%B0%E0%B8%A3%E0%B8%94/">สัปปะรด</a>
+        
+        <p> ชื่อสามัญ : Pineapple<p>
+           <p>ชื่อวิทยาศาสตร์ : Ananas comosus</p>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="w3-third w3-container">
+      <img src="ข้าวโพด.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="http://www.thaichef.in.th/mobile/article_herbdetail.php?aid=16">ข้าวโพด</a>  
+        <p>ชื่อสามัญ : Maize, corn.<p>
+         <p>ชื่อวิทยาศาสตร์ : Zea Mays L.วงศ์ : Gramineae. </p>
+      </div>
+    </div>
+  </div>
+
+
+      <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="ส้มโอ.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="http://www.rspg.or.th/plants_data/kp_bot_garden/kpb_28-4.htm">ส้มโอ</a>
+        <p>ชื่อสามัญ : Pummelo</p>
+         <p>ชื่อวิทยาศาสตร์ : Citrus maxima (Burm.f.) Merr. </p>
+      </div>
+    </div>
+     <div class="w3-third w3-container w3-margin-bottom">
+      <img src="ปาล์ม.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="http://srdi.yru.ac.th/bcqy/page/199/%E0%B8%9B%E0%B8%B2%E0%B8%A5%E0%B9%8C%E0%B8%A1%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99.html">ต้นปาล์ม</a>
+        
+        <p>ชื่อสามัญ Oil palm.<p>
+          <p>ชื่อวิทยาศาสตร์ Elaeis guineensis L.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="อ้อย.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="http://www.rspg.or.th/plants_data/kp_bot_garden/sugar_cane.htm">อ้อย</a>  
+        <p>ชื่อสามัญ : Sugar cane<p>
+          <p>ชื่อวิทยาศาสตร์ : Saccharum officinarum L.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+      <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="ถั่วฝักยาว.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="http://www.foodnetworksolution.com/wiki/word/2221/yard-long-bean-%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9D%E0%B8%B1%E0%B8%81%E0%B8%A2%E0%B8%B2%E0%B8%A7">ถั่วฝักยาว</a>
+        <p>ชื่อสามัญ : yardlong bean </p>
+         <p>ชื่อวิทยาศาสตร์: Vigna unguiculata var. sesquipedalis.</p>
+      </div>
+    </div>
+     <div class="w3-third w3-container w3-margin-bottom">
+      <img src="มะเขือเปราะ.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="https://www.opsmoac.go.th/surin-local_wisdom-preview-422891791856">มะเขือเปราะ</a>
+        
+        <p>ชื่อสามัญ Thai Eggplant, Yellow berried nightshade<p>
+          <p>ชื่อวิทยาศาสตร์ Solanum virginianum L.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="หญ้าเนเปียร์.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+      <a href="https://puechkaset.com/%E0%B8%AB%E0%B8%8D%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C/">หญ้าเนเปียร์</a>  
+        <p>ชื่อสามัญ :Napier Grass ,Elephant Grass<p>
+          <p>ชื่อวิทยาศาสตร์ : Pennisetum purpureum Schumaach</p>
+      </div>
+    </div>
+  </div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3726.782260847572!2d101.49029506883527!3d6.493464975374227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sth!2sth!4v1638267481788!5m2!1sth!2sth" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+
+
+
+
+
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-blue w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>อาชีพของคนในชุมชน</h3>
+        </div>
+
+        <div class="city w3-display-container" id="อาชีพ">
+                  <img src="ยาง.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p>อาชีพหลักของคนในหมู่บ้านคือกรีดยางพารา พื้นที่ส่วนใหญ่ในบริเวณหมู่บ้านจะเต็มไปด้วยสวนยางพารา เกือบทั้งหมด</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo4')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">4</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo4" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-blue w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h5>ตกปลา</h5>
+          <h5></h5>
+        </div>
+
+          <img src="หาปลา.png" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p>อาชีพตกปลา เป็นอาชีพรองของคนในชุมชน มีปลามากมายอย่างเช่น ปลาดุ ปลาก้าง ปลาตะพัด ปลาตะเพียน ปลาสลิด เป็นต้น</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--location-->
+<div class=" w3-container w3-amber w3-blue " id="โรงเรียน" style="bottom:20%;opacity:0.7;width:30%">
+<h2  style="text-align: center;">โรงเรียนในชุมชน</h2>
+</div>
+
+<div class="w3-row w3-container" style="margin:50px 0">
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-blue">
+   <img src="บ้านบึงน้ำใส.jpg" class="w3-" alt="Norway" style="width:100%">
+    <h2>โรงเรียนบ้านบึงน้ำใส</h2>
+    <p>เป็นโรงเรียนสอนระดับประถมศึกษา ตั้งอยู่ที่หมู่5 บ้านมะนังบูเกะ ตำบลตะโล๊ะหะลอ อำเภอรามัน จังหวัดยะลา</p>
+  </div>
+</div>
+
+
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-blue">
+    <img src="กศน.jpg" class="w3-round-large" alt="Norway" style="width:100%">
+    <h2>การศึกษานอกระบบ</h2>
+    <p>เป็นการศึกษาที่มีการจัดหลักสูตร ระยะเวลาในการเรียนและการวัดและประเมินผลยืดหยุ่นสอดคล้องกับสภาพและความต้องการของผู้เรียน โดยไม่จำกัด อายุ รูปแบบการเรียนการสอนหรือสถานที่</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-row w3-container" style="margin:50px 0">
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-blue">
+   <img src="ลูกชาย.jpg" class="w3-" alt="Norway" style="width:100%">
+    <h2>โรงเรียนลูกชายนายอำเภอ คนดีศรีรามัน</h2>
+    <p> โรงเรียนลูกชายนายอำเภอ คนดีศรีรามัน เป็นศูนย์ปรับเปลี่ยนพฤติกรรมและบำบัดการใช้ยาเสพติดของวัยรุ่น ซึ่งโรงเรียนจะอยู่ตรงกลางของบึงและล้อมรอบไปด้วยน้ำ นักเรียนจึงไม่สามารถที่จะหนีออกมาได้</p>
+  </div>
+</div>
+
+
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-blue">
+    <img src="ตาดีกา.jpg" class="w3-round-large" alt="Norway" style="width:100%">
+    <h2>ตาดีกาอัลอิสติกอมะห์</h2>
+    <p>โรงเรียนตาดีกาหรือศูนย์การศึกษาอิสลามประจำมัสยิด เป็นโรงเรียนสอนจริยธรรม เปิดสอนเยาวชนที่นับถือศาสนาอิสลาม อายุระหว่าง 5-12 ปี ในวันเสาร์-อาทิตย์ให้กับ ส่วนมากจะสอนในชุมชนหรือมัสยิดที่เยาวชนเดินทางไปเรียนได้อย่างสะดวกไม่ไกลเกินไปนัก รูปแบบการืเรียนการสอนว่า โรงเรียนตาดีกาเป็นโรงเรียนสอนศาสนาอิสลามเบื้องต้นให้กับเด็ก เน้นการสอนจริยธรรม การอ่าน-เขียน ภาษามลายู รวมถึงการประกอบศาสนกิจ โดยผู้นำชุมชนและอาสาสมัครในชุมชนเป็นผู้สอน</p>
+  </div>
+</div>
+</div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-blue" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>ย้อนกลับ</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+
+
+<div  class="w3-center"><iframe src="https://www.google.com/maps/embed?pb=!4v1637714109058!6m8!1m7!1s5cEhQ0ZLByBZ9SYPcS9vQA!2m2!1d6.485140099520547!2d101.4927383511079!3f341.3896873750173!4f-16.57943453128391!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+ <div  style="text-align: center;"><h3>ทางเข้าชุมชนบ้านบึงน้ำใส</h3></div>
+    <div style="text-align: center;"><p>ตั้งอยู่ที่อำเภอรามัน ห่างจากตัวเมืองยะลาราว 26 กม. ผ่านอำเภอรามันไปทางอำเภอ รือเสาะประมาณ 8 กม</p>
+     <div style="text-align: center;"><p>เลี้ยวซ้ายจากถนนใหญ่เช้าสู่บ้านบึงน้ำใส หมู่ที่ 5 ตำบลตะโละหะลอ อำเภอรามัน</p></div><br>
+
+    
+<!-- Contact Section -->
+<div  style="text-align: center;">
+  <h3 class="w3-margin-right">จัดทำโดย</h3>
+  <h1 class="w3-margin-right">นางสาวตัสนีม แลจิ</h1>
+<div class="w3-container " id="ติดต่อสอบถาม">
+  <h3 class="w3-margin-right">ติดต่อสอบถาม</h3>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email:Tasneemlaechi2562@gmail.com</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> เบอร์:063-6026648</p>
+    </div>
+</div>
+     </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
